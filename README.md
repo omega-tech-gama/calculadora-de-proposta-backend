@@ -7,9 +7,26 @@
   
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=license&message=MIT &color=26395F&style=for-the-badge&logo=ghost"/>
-<img src="https://img.shields.io/static/v1?label=NPM&message=v6.14.14 &color=4cc729&style=for-the-badge&logo=ghost"/>
+
 </p>
  
+----
+
+<p align="center">
+ <a href="#-descricao">Descrição</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-pre-requisito">Pré-Requisito</a> • 
+ <a href="#-instalacao">Instalação</a> • 
+ <a href="#-execucao-da-api">Execução da API</a> • 
+ <a href="#-tecnologias-utilizadas">Tecnologias Utilizadas</a> • 
+ <a 
+ <a
+ href="#-contribuidores">Contribuidores</a> • 
+ <a href="#-contatos">Contatos</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
+
+
 ----
 
 ## 📑 Descrição 
@@ -70,6 +87,19 @@ O servidor inicializará na porta 3000.
 - [Swagger](https://swagger.io/)
 ---
 
+## 🎊 Contribuidores
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/kacyos"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/48040152?v=4" width="100px;" alt=""/><br /><sub><b>Cacio de Castro</b></sub></a><br /></td>
+    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/32558216?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Galli</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/jessicaMarquess"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67026304?v=4" width="100px;" alt=""/><br /><sub><b>Jessica Marques</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/NeryFFO"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/86855151?v=4" width="100px;" alt=""/><br /><sub><b>Nery Flávia</b></sub></a><br /></td>
+  <tr>
+ <table>
+
+---
+
 
 ## 📱 Contatos
 </br>
@@ -87,7 +117,8 @@ O servidor inicializará na porta 3000.
 ---
 
 
-## Licença
+
+## ⚖ Licença
 
 Este projeto tem [licença MIT](LICENSE).
 
