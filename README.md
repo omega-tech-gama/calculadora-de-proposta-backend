@@ -18,7 +18,7 @@
 Este repositório armazena o Back-End da aplicação Calculadora de Proposta - onde  seu intuito é realizar cálculos dos valores postos a partir dos dados informados pelo usuário.
 
 ---
-## 📑 Funcionalidades
+## ⚙ Funcionalidades
 - [x] Login no sistema;
 - [x] Criar usuário no sistema;
 - [x] Criar, atualizar, listar e excluir proposta;
