@@ -8,6 +8,8 @@ import {
   ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
+  CreateDateColumn,
+  UpdateDateColumn
 } from 'typeorm';
 import { Loads } from './loads.entity';
 
@@ -66,4 +68,10 @@ export class Proposal {
   @Exclude()
   @JoinColumn()
   usuario: User;
+
+  @CreateDateColumn()
+  criado_em: Date;
+
+  @UpdateDateColumn()
+  atualizado_em: Date;
 }
