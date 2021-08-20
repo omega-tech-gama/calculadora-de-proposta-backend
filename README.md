@@ -67,7 +67,7 @@ $ npm install
 ```
 ---
 
-## ▶ Execução da API:
+## ▶ Execução da API
 Execute a aplicação em modo de desenvolvimento:
 
 ```bash
@@ -77,7 +77,7 @@ O servidor inicializará na porta 3000.
 
 ---
 
-## 🧷 Tecnologias Utilizadas:
+## 🧷 Tecnologias Utilizadas
 
 - [Nest.js](https://nestjs.com/)
 - [Node.js](https://nodejs.org/en/)
