@@ -1,73 +1,94 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+<a href="#"><img src="https://i.ibb.co/jZ8gPNw/Sem-T-tulo-1.png" alt="Sem-T-tulo-1" border="0"></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+  
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=license&message=MIT &color=26395F&style=for-the-badge&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=NPM&message=v6.14.14 &color=4cc729&style=for-the-badge&logo=ghost"/>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+ 
+----
 
-## Description
+## 📑 Descrição 
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+Este repositório armazena o Back-End da aplicação Calculadora de Proposta - onde  seu intuito é realizar cálculos dos valores postos a partir dos dados informados pelo usuário.
 
+---
+## 📑 Funcionalidades
+- [x] Login no sistema;
+- [x] Criar usuário no sistema;
+- [x] Criar, atualizar, listar e excluir proposta;
+ - [x] Cálculo com o valor da proposta.
+
+---
+
+## 🛑 Pré-requisitos
+É necessário que em sua máquina esteja instalado os seguintes programas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Recomendamos, além disso, que para uma melhor experiência (mas fica a critério do desenvolvedor) utilizar o editor: [VSCode](https://code.visualstudio.com/).
+
+---
+
+## 📥 Instalação
+Primeiramente, é necessário clonar o repositório:
+
+```bash
+$ git clone https://github.com/omega-tech-gama/calculadora-de-proposta-backend.git
+```
+Ainda no terminal, escreva o seguinte comando para entrar na pasta:
+
+```bash
+$ cd calculadora-de-proposta-backend
+```
+Instale as dependências necessárias:
 ```bash
 $ npm install
 ```
+---
 
-## Running the app
+## ▶ Execução da API:
+Execute a aplicação em modo de desenvolvimento:
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
+O servidor inicializará na porta 3000.
 
-## Test
+---
 
-```bash
-# unit tests
-$ npm run test
+## 🧷 Tecnologias Utilizadas:
 
-# e2e tests
-$ npm run test:e2e
+- [Nest.js](https://nestjs.com/)
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/#/)
+- [Passport](http://www.passportjs.org/)
+- [Swagger](https://swagger.io/)
+---
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
+## 📱 Contatos
+</br>
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+[![Linkedin Badge](https://img.shields.io/badge/-Cacio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/cacio/)](https://www.linkedin.com/in/cacio/) 
+[![Gmail Badge](https://img.shields.io/badge/-cacio.cf@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:cacio.cf@gmail.com)](mailto:cacio.cf@gmail.com)
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+[![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/guilherme-galli/)](https://www.linkedin.com/in/guilherme-galli/) 
+[![Gmail Badge](https://img.shields.io/badge/-guilhermegalli5@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:guilhermegalli5@gmail.com)](mailto:guilhermegalli5@gmail.com)
 
-## License
+[![Linkedin Badge](https://img.shields.io/badge/-Jessica-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/jessica-maria-marques/)](https://www.linkedin.com/in/jessica-maria-marques/) 
+[![Gmail Badge](https://img.shields.io/badge/-jessica.marques.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jessica.marques.dev@gmail)](mailto:jessica.marques.dev@gmail.com)
 
-Nest is [MIT licensed](LICENSE).
+---
+
+
+## Licença
+
+Este projeto tem [licença MIT](LICENSE).
+
+---
