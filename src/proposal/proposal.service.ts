@@ -44,6 +44,13 @@ export class ProposalService {
       where: { usuario: user }
     });
 
+    proposals.sort((a, b) => {
+      const date1 = new Date(a.criado_em) as any;
+      const date2 = new Date(b.criado_em) as any;
+
+      return date2 - date1;
+    })
+
     return classToPlain(proposals);
   }
 
