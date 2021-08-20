@@ -64,10 +64,10 @@ export class ProposalService {
       });
     }
 
-    if (proposal.contratado === true) {
+    if (proposal.contratado) {
       throw new BadRequestException({
         status: 400,
-        error: "Proposta já contratada",
+        error: "Essa proposta já foi contratada",
       });
     }
 
@@ -91,6 +91,13 @@ export class ProposalService {
       throw new NotFoundException({
         status: 404,
         error: "Proposta não encontrada",
+      });
+    }
+
+    if (proposal.contratado) {
+      throw new BadRequestException({
+        status: 400,
+        error: "Não é possível excluir uma proposta já contratada",
       });
     }
 
