@@ -36,7 +36,7 @@ Este repositório armazena o Back-End da aplicação Calculadora de Proposta - o
 
 ---
 ## ⚙ Funcionalidades
-- [x] Login no sistema;
+- [x] Autenticação de usuário;
 - [x] Criar usuário no sistema;
 - [x] Criar, atualizar, listar e excluir proposta;
  - [x] Cálculo com o valor da proposta.
@@ -51,17 +51,17 @@ Recomendamos, além disso, que para uma melhor experiência (mas fica a critéri
 ---
 
 ## 📥 Instalação
-Primeiramente, é necessário clonar o repositório:
+Clonar o repositório:
 
 ```bash
 $ git clone https://github.com/omega-tech-gama/calculadora-de-proposta-backend.git
 ```
-Ainda no terminal, escreva o seguinte comando para entrar na pasta:
+Acessar a pasta do projeto:
 
 ```bash
 $ cd calculadora-de-proposta-backend
 ```
-Instale as dependências necessárias:
+Instalar as dependências necessárias:
 ```bash
 $ npm install
 ```
@@ -79,10 +79,11 @@ O servidor inicializará na porta 3000.
 
 ## 🧷 Tecnologias Utilizadas
 
-- [Nest.js](https://nestjs.com/)
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Nest.js](https://nestjs.com/)
 - [TypeORM](https://typeorm.io/#/)
+- [PostgreSQL](https://www.postgresql.org/)
 - [Passport](http://www.passportjs.org/)
 - [Swagger](https://swagger.io/)
 ---
