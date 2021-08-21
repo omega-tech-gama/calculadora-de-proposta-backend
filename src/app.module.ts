@@ -18,7 +18,7 @@ import { AuthModule } from './auth/auth.module';
       database: process.env.POSTGRES_DATABASE || "omega",
       entities: ["dist/**/*.entity{.ts,.js}"],
       synchronize: true,
-      ssl: (process.env.DATABASE_SSL == "true")
+      ssl: { rejectUnauthorized: false }
     })
   ],
   controllers: [],
