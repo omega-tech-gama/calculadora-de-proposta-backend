@@ -32,7 +32,7 @@
 ## 📑 Descrição 
 
 
-Este repositório armazena o Back-End da aplicação Calculadora de Proposta - onde  seu intuito é realizar cálculos dos valores postos a partir dos dados informados pelo usuário.
+Este repositório armazena o Back-End da aplicação Calculadora de Proposta - onde  seu intuito é realizar cálculos dos valores postos a partir dos dados informados pelo usuário para a aprovação de uma proposta. 
 
 ---
 ## ⚙ Funcionalidades
