@@ -1,7 +1,7 @@
 import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
+import { SwaggerModule, DocumentBuilder, SwaggerCustomOptions } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -10,13 +10,20 @@ async function bootstrap() {
   
   const config = new DocumentBuilder()
     .setTitle('Calculadora de proposta')
-    .setDescription('The cats API description')
+    .setDescription('API desenvolvida para criação de propostas para contratação de energia elétrica.')
     .setVersion('1.0')
-    .addTag('calculadora')
+    .addBearerAuth()
     .build();
+
+  const options: SwaggerCustomOptions = {
+    swaggerOptions: {
+      persistAuthorization: true,
+    },
+  };
   
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document);
+
+  SwaggerModule.setup('api', app, document, options);
 
   app.useGlobalPipes(
     new ValidationPipe({
@@ -25,6 +32,6 @@ async function bootstrap() {
       transform: true,
     }),
   );
-  await app.listen(parseInt(process.env.PORT) || 3000);
+  await app.listen(parseInt(process.env.PORT) || 4000);
 }
 bootstrap();

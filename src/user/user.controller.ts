@@ -8,7 +8,9 @@ import {
 import { UserService } from './user.service';
 import { LocalAuthGuard } from '../auth/guards/local-auth.guard';
 import { CreateUserDto } from './dto/create-user.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Usuários')
 @Controller('/users')
 export class UserController {
   constructor(private usuarioService: UserService) {}

@@ -13,7 +13,10 @@ import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
 import { Req } from '@nestjs/common';
 import { Request } from 'express';
 import { CreateProposalDto } from './dto/create-proposal.dto';
+import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 
+@ApiBearerAuth()
+@ApiTags('Propostas')
 @Controller('propostas')
 export class ProposalController {
   constructor(private readonly proposalService: ProposalService) {}
