@@ -44,6 +44,13 @@ export class ProposalService {
       where: { usuario: user }
     });
 
+    proposals.sort((a, b) => {
+      const date1 = new Date(a.criado_em) as any;
+      const date2 = new Date(b.criado_em) as any;
+
+      return date2 - date1;
+    })
+
     return classToPlain(proposals);
   }
 
@@ -64,10 +71,10 @@ export class ProposalService {
       });
     }
 
-    if (proposal.contratado === true) {
+    if (proposal.contratado) {
       throw new BadRequestException({
         status: 400,
-        error: "Proposta já contratada",
+        error: "Essa proposta já foi contratada",
       });
     }
 
@@ -91,6 +98,13 @@ export class ProposalService {
       throw new NotFoundException({
         status: 404,
         error: "Proposta não encontrada",
+      });
+    }
+
+    if (proposal.contratado) {
+      throw new BadRequestException({
+        status: 400,
+        error: "Não é possível excluir uma proposta já contratada",
       });
     }
 
